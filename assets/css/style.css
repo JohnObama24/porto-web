@@ -188,82 +188,128 @@ nav a:hover {
     margin-top: 30px;
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.skill h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
 }
 
 .container-skill {
     max-width: 100%;
     background-color: rgb(232, 235, 239);
-    width: 70%;
+    width: 80%;
+    height: 350px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 20%; 
+    padding: 0 35px; 
     -webkit-box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
     -moz-box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
     box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
 }
 
-.skill-items {
-    width: 500px;
+.skill-title {
+    display: block;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.skill-box {
+    height: 70%;
+    padding: 10px;
+    width: 70px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.skill-box p {
+    text-align: center;
+    margin-top: 12px;
 }
 
-.subject {
-    font-size: 18px;
-    color: black;
-    padding-bottom: 15px;
+
+.skill-box img {
+    width: 35px;
+}
+.skill-box h3 {
+    margin-top: 12px;
 }
 
-.bar-skill {
-    position: relative;
+.project {
+    height: 100vh;
     width: 100%;
-    height: 5px;
-    background-color: #808080;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15em;
 }
 
-.bar-fill {
-    position: absolute;
-    height: 100%;
-    background-color: rgb(218, 102, 102);
-    border-radius: 15px;
-    animation: animate ease-in-out 1.5s forwards;
+.project h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 45px;
 }
 
-.bar-fill.html {
-    max-width: 89%;
+.container-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bar-fill.css {
-    max-width: 80%;
+.project-box {
+    background-color: rgb(232, 235, 239);
+    display: flex;
+    -webkit-box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
+    box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
 }
 
-.bar-fill.php {
-    max-width: 60%;
+.project-content {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 12px;
 }
 
-.bar-fill.js {
-    max-width: 75%;
+.project-content img{
+    height: 80px;
 }
 
-.bar-fill.c {
-    max-width: 45%;
+.contact {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
-
-@keyframes animate {
-    from{
-        width: 0%;
-    }
-    to {
-        width: 100%; 
-    }
+.container-contact {
+    padding: 20px;
+    background-color: rgb(232, 235, 239);
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     -webkit-box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
+    box-shadow: -1px 8px 8px -3px rgba(0,0,0,0.7);
 }
+
+.sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.sosmed img{
+    width: 50px;
+    gap: 30px;
+}
+
+/* .contact h3 {
+    align-items: center;
+} */

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
 </head>
 <body>
 
@@ -16,14 +18,14 @@
             <a href="" >JOHN</a>
         </div>
         <div class="cv">
-            <a href=""><img src="assets/cv.png" alt="tombol"></a>
+            <a href=""><img src="assets/images/cv.png" alt="tombol"></a>
         </div>
         <nav>
             <a href="#">Home</a>
             <a href="#About">About</a>
             <a href="#skill">Skill</a>
-            <a href="">Project</a>
-            <a href="">Contact</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -39,13 +41,13 @@
         
                 <div class="bidang-container">
                     <div class="bidang">
-                        <img src="assets/game.png" alt="">
+                        <img src="assets/images/game.png" alt="">
                         <h4>Game Development</h4>
                         <p>Mampu mengembangkan dan membuat game 2d atau 3d</p>
                     </div>
         
                     <div class="bidang">
-                        <img src="assets/web.png" alt="">
+                        <img src="assets/images/web.png" alt="">
                         <h4>Web Development</h4>
                         <p>Mampu mengembangkan web dan membuat</p>
                     </div>
@@ -55,7 +57,7 @@
         
     
         <div class="photo">
-            <img src="assets/john.png" alt="obama" class="animate__animated animate__fadeInRight">
+            <img src="assets/images/john.png" alt="obama" class="animate__animated animate__fadeInRight">
         </div>
     </section>
 
@@ -65,7 +67,7 @@
         <div class="container-about">
             <h1>EDUCATION</h1>
             <div class="about-box">
-                <div class="about-content" data-aos="fade-right">
+                <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
                     <div class="content">
                         <h2>SD KREATIF Tritura</h2>
                         <p>2014 - 2019</p>
@@ -73,7 +75,7 @@
                 </div>
            
 
-                <div class="about-content" data-aos="fade-right">
+                <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
                     <div class="content">
                         <h2>SMP Tritura</h2>
                         <p>2020 - 2022</p>
@@ -81,7 +83,7 @@
 
             </div>
 
-                <div class="about-content"  data-aos="fade-right">
+                <div class="about-content"  data-aos="fade-right" data-aos-duration="1000">
                     <div class="content">
                         <h2>SMK Plus Pelita Nusantara</h2>
                         <p>2023 - NOW</p>
@@ -93,49 +95,114 @@
         </div>
     </section>
 
+    
     <section id="skill" class="skill">
+        <h1>My Skill</h1>
         <div class="container-skill">
-            <h2>SKILL PROGRESS</h2>
-            <div class="skill-items" data-aos="fade-left">
-                <div class="subject">HTML</div>
-                <div class="bar-skill">
-                    <div class="bar-fill html"></div>
-                </div>
+
+            <div class="skill-box"  data-aos="zoom-in" data-aos-duration="1000">
+                <img src="assets/images/html.svg" alt="">
+                <h3>HTML</h3>
+                <p>Menguasai Basic dan lanjutan HTML dengan sangat baik</p>
             </div>
-            <div class="skill-items" data-aos="fade-left">
-                <div class="subject">CSS</div>
-                <div class="bar-skill">
-                    <div class="bar-fill css"></div>
-                </div>
+            <div class="skill-box"  data-aos="zoom-in" data-aos-duration="1500">
+                <img src="assets/images/css.svg" alt="">
+                <h3>CSS</h3>
+                <p>Menguasai Basic dan lanjutan Css cukup baik</p>
             </div>
-            <div class="skill-items" data-aos="fade-left">
-                <div class="subject">PHP</div>
-                <div class="bar-skill" >
-                    <div class="bar-fill php"></div>
-                </div>
+            <div class="skill-box"  data-aos="zoom-in" data-aos-duration="2000">
+                <img src="assets/images/js.svg" alt="">
+                <h3>JAVASCRIPT</h3>
+                <p>Menguasai Basic dan lanjutan js dengan sangat baik</p>
             </div>
-            <div class="skill-items" data-aos="fade-left">
-                <div class="subject">JAVASCRIPT</div>
-                <div class="bar-skill">
-                    <div class="bar-fill js"></div>
-                </div>
+            <div class="skill-box"  data-aos="zoom-in" data-aos-duration="2500">
+                <img src="assets/images/php.svg" alt="">
+                <h3>PHP</h3>
+                <p>Menguasai Basic php dengan cukup Baik</p>
             </div>
-            <div class="skill-items" data-aos="fade-left">
-                <div class="subject">C#</div>
-                <div class="bar-skill">
-                    <div class="bar-fill c"></div>
-                </div>
+            <div class="skill-box"  data-aos="zoom-in" data-aos-duration="3000">
+                <img src="assets/images/c.svg" alt="">
+                <h3>C#</h3>
+                <p>Menguasai Basik C# dengan cukup baik</p>
             </div>
         </div>
     </section>
     
 
     <section id="project" class="project">
-        
+        <h1>project</h1>
+         <div class="container-project"  data-aos="flip-up">
+            
+            <div class="project-box">
+                <div class="project-content">
+                    <h3>PROJECT 1</h3>
+                    <img src="assets/images/project.jpg" alt="koh">
+                </div>
+                <div class="project-content">
+                    <h3>PROJECT 2</h3>
+                    <img src="assets/images/project.jpg" alt="koh">
+                </div>
+                <div class="project-content">
+                    <h3>PROJECT 3</h3>
+                    <img src="assets/images/project.jpg" alt="koh">
+                </div>
+                <div class="project-content">
+                    <h3>PROJECT 4</h3>
+                    <img src="assets/images/project.jpg" alt="koh">
+                </div>
+                <div class="project-content">
+                    <h3>PROJECT 5</h3>
+                    <img src="assets/images/project.jpg" alt="koh">
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h3>Contact</h3>
+        <div class="container-contact" data-aos="zoom-in-up">
+            <a href="https://github.com/JohnObama24">
+                <div class="sosmed" >
+                    <img src="assets/images/github-svgrepo-com.svg" alt="">
+                </div>
+                <p>github</p>
+            </a>
+            <a href="mailto:johnobama24keren@gmail.com@gmail.com">
+                <div class="sosmed">
+                    <img src="assets/images/gmail-svgrepo-com.svg" alt="">
+                </div>
+                <p>gmail</p>
+            </a>
+            <a href="https://www.instagram.com/johnobama_/">
+                <div class="sosmed">
+                    <img src="assets/images/instagram-svgrepo-com.svg" alt="">
+                </div>
+                <p>instagram</p>
+            </a>
+            <a href="https://wa.me/6281280300416">
+                <div class="sosmed">
+                    <img src="assets/images/whatsapp-svgrepo-com.svg" alt="">
+                </div>
+                <p>whatsapp</p>
+            </a>
+           
+           
+           
+        </div>
+        <footer>@copyright© 2024; Designed By John</footer>
     </section>
 
 
 
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-..." crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
