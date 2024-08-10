@@ -32,6 +32,11 @@ nav a {
     z-index: 1; /* Pastikan h1 berada di atas */
 }
 
+.home-text p {
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 .photo {
     margin: auto;
