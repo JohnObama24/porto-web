@@ -1,0 +1,138 @@
+header {
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+nav a {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-icon {
+    display: block;
+}
+
+.home {
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.home-text h1 {
+    margin-top: 80px; /* Tambahkan margin atas untuk memberi jarak dari navbar */
+    text-align: center;
+    z-index: 1; /* Pastikan h1 berada di atas */
+}
+
+
+.photo {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.bidang-container {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bidang {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.bidang-card {
+    margin: auto;
+}
+
+.about-box {
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 90%;
+}
+
+.container-skill {
+    height: auto;
+    display: flex;
+    justify-content: center; /* Menyelaraskan kotak di tengah */
+    align-items: center; /* Pastikan tinggi kotak selaras */
+    flex-wrap: wrap; /* Jika tidak cukup lebar, akan membungkus ke bawah */
+    gap: 20px; /* Memberikan jarak antar kotak */
+}
+
+.skill-box {
+    height: auto;
+    flex: 1;
+    max-width: 150px; /* Atur lebar maksimum agar seimbang */
+    margin-bottom: 20px;
+    text-align: center; /* Pusatkan isi kotak */
+}
+
+
+.project {
+    padding-top: 2em;
+}
+
+.container-project {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-box {
+    flex-direction: column;
+}
+
+.project-content img {
+    height: 150px;
+}
+
+.contact {
+    height: auto;
+    padding: 20px 0;
+}
+
+.container-contact {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sosmed img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.menu-icon {
+    display: flex;
+}
+
+nav.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

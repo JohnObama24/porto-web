@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Porto John</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link
+    rel="stylesheet"
+    media="screen and (max-width: 728px)"
+    href="assets/css/mobile.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
@@ -18,9 +22,12 @@
             <a href="" >JOHN</a>
         </div>
         <div class="cv">
-            <a href=""><img src="assets/images/cv.png" alt="tombol"></a>
+            <a href="assets/John Obama Morowali Sipahutar.docx"><img src="assets/images/cv.png" alt="tombol"></a>
         </div>
-        <nav>
+        <div class = "menu-icon" id = "menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav id ="menu-list" class="hidden">
             <a href="#">Home</a>
             <a href="#About">About</a>
             <a href="#skill">Skill</a>
@@ -32,33 +39,43 @@
     <section id="home" class="home">
         <div class="animate__animated animate__fadeInLeft">
             <div class="home-text">
-                <p>Halo semua saya,</p>
+                <p>Hello everyone my name is,</p>
                 <h1 class="text-name">JOHN OBAMA</h1>
                 <h4>MOROWALI SIPAHUTAR</h4>
-                <p>a junior web developer and junior game developer with a passion for technology. </p>
-                
-                <h5>What I can do</h5>
-        
-                <div class="bidang-container">
-                    <div class="bidang">
-                        <img src="assets/images/game.png" alt="">
-                        <h4>Game Development</h4>
-                        <p>Mampu mengembangkan dan membuat game 2d atau 3d</p>
+                <p>a junior web developer and junior Flutter developer with a passion for technology. </p>
+                <div class="container-home">
+                    <div class="photo">
+                        <img src="assets/images/john.png" alt="obama" class="animate__animated animate__fadeInRight">
                     </div>
-        
-                    <div class="bidang">
-                        <img src="assets/images/web.png" alt="">
-                        <h4>Web Development</h4>
-                        <p>Mampu mengembangkan web dan membuat</p>
+
+                    <div class="bidang-container">
+                        <h5>What I can do</h5>
+                        <div class="bidang-card">
+                            <div class="bidang">
+                                <img src="assets/images/flutter.png" alt="">
+                                <h4>Flutter</h4>
+                                <p>Able to create simple mobile applications</p>
+                            </div>
+
+                            <div class="bidang">
+                                <img src="assets/images/web.png" alt="">
+                                <h4>Web Development</h4>
+                                <p>Able to develop and create web</p>
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
+
+
+
+
             </div>
         </div>
-        
-    
-        <div class="photo">
-            <img src="assets/images/john.png" alt="obama" class="animate__animated animate__fadeInRight">
-        </div>
+
+
+
     </section>
 
     <section id="About" class="about">
@@ -73,7 +90,7 @@
                         <p>2014 - 2019</p>
                     </div>
                 </div>
-           
+
 
                 <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
                     <div class="content">
@@ -95,7 +112,7 @@
         </div>
     </section>
 
-    
+
     <section id="skill" class="skill">
         <h1>My Skill</h1>
         <div class="container-skill">
@@ -103,56 +120,44 @@
             <div class="skill-box"  data-aos="zoom-in" data-aos-duration="1000">
                 <img src="assets/images/html.svg" alt="">
                 <h3>HTML</h3>
-                <p>Menguasai Basic dan lanjutan HTML dengan sangat baik</p>
+
             </div>
             <div class="skill-box"  data-aos="zoom-in" data-aos-duration="1500">
                 <img src="assets/images/css.svg" alt="">
                 <h3>CSS</h3>
-                <p>Menguasai Basic dan lanjutan Css cukup baik</p>
+
             </div>
             <div class="skill-box"  data-aos="zoom-in" data-aos-duration="2000">
                 <img src="assets/images/js.svg" alt="">
                 <h3>JAVASCRIPT</h3>
-                <p>Menguasai Basic dan lanjutan js dengan sangat baik</p>
+
             </div>
             <div class="skill-box"  data-aos="zoom-in" data-aos-duration="2500">
                 <img src="assets/images/php.svg" alt="">
                 <h3>PHP</h3>
-                <p>Menguasai Basic php dengan cukup Baik</p>
+
             </div>
             <div class="skill-box"  data-aos="zoom-in" data-aos-duration="3000">
                 <img src="assets/images/c.svg" alt="">
                 <h3>C#</h3>
-                <p>Menguasai Basik C# dengan cukup baik</p>
+
             </div>
         </div>
     </section>
-    
+
 
     <section id="project" class="project">
         <h1>project</h1>
          <div class="container-project"  data-aos="flip-up">
-            
+
             <div class="project-box">
                 <div class="project-content">
-                    <h3>PROJECT 1</h3>
-                    <img src="assets/images/project.jpg" alt="koh">
+                    <h3>E-votinG Osis</h3>
+                    <img src="assets/images/evote.jpg" alt="koh">
                 </div>
                 <div class="project-content">
-                    <h3>PROJECT 2</h3>
-                    <img src="assets/images/project.jpg" alt="koh">
-                </div>
-                <div class="project-content">
-                    <h3>PROJECT 3</h3>
-                    <img src="assets/images/project.jpg" alt="koh">
-                </div>
-                <div class="project-content">
-                    <h3>PROJECT 4</h3>
-                    <img src="assets/images/project.jpg" alt="koh">
-                </div>
-                <div class="project-content">
-                    <h3>PROJECT 5</h3>
-                    <img src="assets/images/project.jpg" alt="koh">
+                    <h3>Project CRUD PHP</h3>
+                    <img src="assets/images/crud.png" alt="koh">
                 </div>
             </div>
          </div>
@@ -185,9 +190,9 @@
                 </div>
                 <p>whatsapp</p>
             </a>
-           
-           
-           
+
+
+
         </div>
         <footer>@copyright© 2024; Designed By John</footer>
     </section>
@@ -208,6 +213,6 @@
     <script>
         AOS.init();
       </script>
+      <script src = "assets/js/script.js"></script>
 </body>
 </html>
-
