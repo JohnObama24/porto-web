@@ -141,3 +141,32 @@ nav {
     flex-direction: column;
     width: 100%;
 }
+
+
+.about:nth-child(2){
+    margin-top: 30px;
+}
+
+.contact-info-container {
+    margin: 0;
+  }
+
+  #contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;}
+
+    
