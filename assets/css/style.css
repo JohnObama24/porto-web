@@ -428,6 +428,11 @@ nav a:hover {
     gap: 1rem;
   }
 
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
 
   @media screen and (max-width: 1400px) {
     #profile {
