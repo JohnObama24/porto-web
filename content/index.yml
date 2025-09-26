@@ -34,27 +34,32 @@ about:
 experience:
   title: Work Experience
   items:
-    - position: "Web Dev"
+    - position: "Software Engginer"
       date: "2023 - Present"
       company:
         name: SyncronizeTeams
-        logo: "i-simple-icons-nuxtdotjs"
+        logo: "i-mdi-sync"
         url: "https://synchronizeteams.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
-      company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
-      company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        color: "#636CCB"
+education:
+  title: "Education"
+  description: "Riwayat pendidikan saya"
+  items:
+    - date: 2023 - Present
+      degree: "Software Engginer"
+      school:
+        name: "SMK Plus Pelita Nusantara"
+        url: "https://www.smkpluspnb.sch.id/"
+        logo: "i-heroicons-academic-cap"
+        color: "#F7374F"
+    - date: 2019 - 2022
+      degree: "-"
+      school:
+        name: "SMP TRITURA"
+        url: "#"
+        logo: "i-heroicons-building-library"
+        color: "#2563eb"
+
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:

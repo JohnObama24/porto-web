@@ -57,6 +57,18 @@ export default defineContentConfig({
             })
           }))
         }),
+        education: createBaseSchema().extend({
+          items: z.array(z.object({
+            date: z.date(),
+            degree: z.string(),
+            school: z.object({
+              name: z.string(),
+              url: z.string(),
+              logo: z.string().editor({ input: 'icon' }),
+              color: z.string()
+            })
+          }))
+        }),
         testimonials: z.array(createTestimonialSchema()),
         blog: createBaseSchema(),
         faq: createBaseSchema().extend({
