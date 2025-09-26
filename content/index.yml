@@ -61,27 +61,27 @@ education:
         color: "#2563eb"
 
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "Danggg, his good bruv"
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: 'Bro'
+      description: 'Customer'
       avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+        src: 'https://preview.redd.it/3zazpr2zxz441.jpg?auto=webp&s=c535b50d815f1b30ed6fc4ae70b17288e562f375'
+        srcset: 'https://preview.redd.it/3zazpr2zxz441.jpg?auto=webp&s=c535b50d815f1b30ed6fc4ae70b17288e562f375'
+  - quote: "John help me so much, he is a great developer and very damn good at what he does."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: 'cekgu'
+      description: 'Developer at somewhere'
       avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW1i-AlTYnEn_cgn96qacVOaud7WarY36kDw&s'
+        srcset: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW1i-AlTYnEn_cgn96qacVOaud7WarY36kDw&s'
+  - quote: "mmm i know him, he is a good developer"
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      name: 'menime'
+      description: 'Another developer at somewhere'
       avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: 'https://www.onthisday.com/images/people/eminem.jpg?w=360'
+        srcset: 'https://www.onthisday.com/images/people/eminem.jpg?w=360'
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
